@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.nav {
+    background-color: #1f2937;
+    display: flex;
+    padding: 15px 10% 5% 10%;
+    box-sizing:border-box;
+    
+}
+
+.main {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    flex: 60%;
+    
+    
+}
+
+.one{
+    font-size: 18px;
+    color: #e5e7eb;
+    float: right;
+}
+.two{
+    font-size: 18px;
+    color: #e5e7eb;
+    float: right;
+    margin: 0px 20px;
+}
+.three{
+    font-size: 18px;
+    color: #e5e7eb;
+    flex: 5%;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 0px 10% 100px;
+    display:flex;
+}
+
+.header > div {
+    flex: 1;
+}
+
+.header h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header img {
+    height: 275px;
+    width: 600px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.section {
+    padding: 0 15%;
+}
+
+.presentation{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+
+}
+
+.information > div {
+    flex: 1;
+
+}
+
+
+.information img{
+    width: 200px;
+    height: 200px;
+    padding: 20px 60px 0px;
+}
+
+.text_below {
+    display: flex;
+}
+
+.text_below > div {
+    flex: 1;
+}
+
+.text_below div {
+    padding: 0px 60px 80px;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+
+.quote {
+    padding: 80px 15%;
+    background-color: #e5e7eb;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.quote h3 {
+    display: flex;
+    justify-content: right;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action {
+    margin: 80px;
+    padding: 20px 15%;
+    background-color: #3882f6;
+    display: flex;
+}
+
+
+
+.action .text{
+    flex: 75%;
+}
+
+.action h1{
+    font-size: 24px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+.action p{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.action .sign_up {
+    flex: 25%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.action button {    
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 10px 40px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #f9faf8;
+    border-radius: 10px;
+}
